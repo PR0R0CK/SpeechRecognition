@@ -59,7 +59,7 @@ def noise_adjusted_with_more_samples():
         print('Listens...')
         audio = r.record(source)
     # showing many possible transcriptions
-    print(r.recognize_google(audio, show_all=True))
+        print(r.recognize_google(audio, show_all=True))
 
 
 def main():
