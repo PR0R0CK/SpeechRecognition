@@ -7,6 +7,7 @@ mic = sr.Microphone()
 # listening
 def listening():
     with mic as source:
+        print('Say something...')
         audio = r.listen(source)
 
     print(r.recognize_google(audio))
