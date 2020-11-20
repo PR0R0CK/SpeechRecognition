@@ -52,7 +52,6 @@ def main():
     # getting a random word from the list
     word = random.choice(WORDS)
 
-
     # format the instructions string
     instructions = (
         "I'm thinking of one of these words:\n"
