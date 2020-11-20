@@ -11,7 +11,6 @@ def capture_data():
     with harvard as source:
         print('Listens...')
         audio = r.record(source)
-    type(audio)
     print(r.recognize_google(audio))
 
 
